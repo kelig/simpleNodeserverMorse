@@ -1,0 +1,24 @@
+{
+  "name": "nodeserver",
+  "version": "1.0.0",
+  "description": "schoolproject",
+  "main": "server.js",
+  "scripts": {
+    "test": "start",
+    "start": "node server.js"
+  },
+  "keywords": [
+    "Node.js",
+    "Web",
+    "server"
+  ],
+  "author": "Stijn Coppens",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "fs": "0.0.1-security",
+    "mysql": "^2.18.1",
+    "xmorse": "^1.0.0"
+  }
+}
